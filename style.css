@@ -1,0 +1,33 @@
+* {
+    /*margin: 0;
+    border: 0;*/
+}
+h1,
+h2,
+h3,
+p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button {
+    align-content: center;
+}
+.hide {
+    display: none;
+}
+
+header {
+    height: 150px;
+    width: 100%; 
+    background-color: blanchedalmond;     
+}
+.add-score {
+    background: blueviolet;
+    padding: 15px;
+}
+body {
+    background: lightgoldenrodyellow;
+    align-items: center;
+    text-align: center;
+
+}

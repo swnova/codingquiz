@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" /> 
+</head>
+<body>
+    
+    <header class="topintro">
+        <title>Coding Quiz</title>
+     <h1>Coding QUIZ</h1>
+        <p> Test your knowledge of code languages ! - Wrong answers lose time (3s) from the clock.
+           If the timer counts down to zero before the quiz is finished, you FAIL.
+        </p>
+        
+        <h2>Good Luck !</h2>
+        <h3 class ="timer-countdown"> </h3>
+    </header>
+    <main>
+        <!-- three sections -->
+        <!-- section1 instructions -->
+        <section id="instructions">
+            <p> Welcome To Javascript quiz</p>
+            <button id="start-game">Begin</button>
+        </section>
+        <!-- section 2 questions and answer -->
+            <section id="game-window" class="hide">
+                <div id="correct-answer"> 
+                    <h2 id="questions"></h2>
+                    <div id="answer-button"></div>
+                </div>
+                <h3 id="show"></h3>
+            </section>
+        <!-- section 3 score screen -->
+        <section id="score-input" class="hide">
+            <h1>Congratulations your score is <span id="score"></span> Add your initials to save your score </h1>
+            <form>
+            <input type="text" placeholder="initials">
+                <button id="add-score"></button>
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        
+    
+    </footer>
+    
+    <script src="./questions.js"></script>
+    <script src="./script.js"></script>
+
+
+</body>
+   
+</html>
